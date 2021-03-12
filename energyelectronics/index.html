@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+
+		<style>
+			.container {
+				display: flex;
+			}
+			.col {
+				flex: 1
+			}
+		</style>
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-color="#333333">
+					<div class="container" style="font-size: 70px; display: block; text-align: center">
+						Энергетическая электроника
+						<br><br><br>
+					</div>
+					<div class="container">
+						<div class="col" style="font-size: 18px; text-align: left">
+							Лекции: 20 часов (10 занятий) <br> 
+							Практические: 48 часов (24 на группу или 12 занятий) <br>
+							Аттестация: экзамен
+						</div>
+						
+						<div class="col" style="font-size: 24px; text-align: right">
+							<br><br><br><br><br>
+							ст. преподаватель кафедры 
+							Электрические станции, подстанции и диагностика электрооборудования <br><br>
+							Литвинов Сергей Николаевич <br>
+							e-mail: slit8809@yandex.ru
+							<br><br><br>
+						</div>
+						
+					</div>
+				</section>
+
+
+				<section data-background-color="#333333">
+					<div class="container" style="font-size: 70px; display: block; text-align: center">
+						Литература
+						<br><br>
+					</div>
+					<ul style="font-size: 36px; text-align: justify">
+						<li>Розанов Ю.К. Силовая электроника: учебник для вузов / Ю.К. Розанов, М.В. Рябчиций, А.А. Кваснюк. – 2-е изд., стереотипное. – М.: Издательский дом МЭИ, 2009. – 632 с.: ил.</li>
+						<li>Забродин Ю.С. Промышленная электроника: Учебник для вузов. – М.: Высш. Школа, 1982. – 496 с., ил.</li>
+						<li>Васильев А.А. Электрическая часть станций и подстанций / А.А. Васильев. – М.: Энергоатомиздат, 1990. – 506 с.</li>
+					</ul>
+					<br><br>
+				</section>
+
+
+				<section data-background-color="#333333">
+					<div class="container" style="font-size: 70px; display: block; text-align: center">
+						Лекция
+						<br><br><br>
+					</div>
+					Полупроводниковые приборы для преобразовательной техники. <br>
+					Виды преобразователей.
+					<br><br><br><br><br>
+				</section>
+
+
+				<section data-background-color="#333333">
+					<div class="container" style="font-size: 70px; display: block; text-align: center">
+						Классификация
+						<br><br>
+					</div>
+					<ul style="font-size: 36px; text-align: justify">
+						<li>по рабочей частоте: низкочастотные, высокочастотные, импульсные;</li>
+						<li>по коммутируемой мощности: малой, средней, большой;</li>
+						<li>по принципу управляемости (переход между открытым и закрытым состояниями): полярностью напряжения (диод), полярностью и уровнем тока (тиристор, биполярный транзистор), полярностью и уровнем напряжения (полевой транзистор).</li>
+					</ul>
+					<br><br>
+				</section>
+
+				<section data-background-color="#333333">
+					<div class="container" style="font-size: 70px; display: block; text-align: center">
+						Диод
+						<br>
+					</div>
+					Полупроводниковые приборы для преобразовательной техники. <br>
+					Виды преобразователей.
+					<br><br>
+
+					<svg height="100" width="100">
+						<polygon points="0,20 25,190 160,210" style="fill:lime;stroke:purple;stroke-width:1" />
+					</svg>
+
+
+				</section>
+
+
+				
+
+				<section data-markdown>
+					<textarea data-template>
+						## Slide 1
+						A paragraph with some text and a [link](http://hakim.se).
+						---
+						## Slide 2
+						---
+						## Slide 3
+					  </textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				slideNumber: "c/t",
+
+
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
